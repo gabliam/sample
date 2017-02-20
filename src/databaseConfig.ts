@@ -1,14 +1,17 @@
 import { Bean, Config } from '@gabliam/core';
-import { DriverOptions } from '@gabliam/typeorm';
+import { ConnectionOptionsBean, ConnectionOptions } from '@gabliam/typeorm';
 
 @Config()
 export class DatabaseConfig {
 
-    @Bean('DriverOptions')
-    testBean(): DriverOptions {
+    @Bean(ConnectionOptionsBean)
+    connectionConfig(): ConnectionOptions {
         return {
-            type: 'sqlite',
-            storage: 'photo.sqlite'
+            driver: {
+                type: 'sqlite',
+                storage: 'photo.sqlite'
+            },
+            autoSchemaSync: true
         };
     }
 }

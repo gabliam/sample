@@ -12,9 +12,9 @@
     inversify-binding-decorators "^3.0.0"
     inversify-logger-middleware "^3.0.0"
 
-"@gabliam/typeorm@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-1.0.0.tgz#cca796516dc1f29b0f8af355d087026d4e3821c2"
+"@gabliam/typeorm@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-1.0.2.tgz#d4b78cab4a555508cec6c81e4700d65b658dd506"
   dependencies:
     "@gabliam/core" "^1.0.1"
     typeorm "^0.0.8"
@@ -1316,13 +1316,7 @@ on-finished@~2.3.0:
   dependencies:
     ee-first "1.1.1"
 
-once@^1.3.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
-  dependencies:
-    wrappy "1"
-
-once@~1.3.0, once@~1.3.3:
+once@^1.3.0, once@~1.3.0, once@~1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/once/-/once-1.3.3.tgz#b2e261557ce4c314ec8304f3fa82663e4297ca20"
   dependencies:
