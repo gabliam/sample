@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/gabliam/sample#readme",
   "dependencies": {
-    "@gabliam/core": "^1.0.1",
-    "@gabliam/typeorm": "^1.0.2",
+    "@gabliam/core": "^1.1.0",
+    "@gabliam/typeorm": "^1.0.3",
     "body-parser": "^1.16.1",
     "helmet": "^3.4.0",
     "reflect-metadata": "^0.1.9",
