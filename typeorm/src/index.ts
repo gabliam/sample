@@ -11,7 +11,7 @@ new Gabliam({
   configPath: path.resolve(__dirname, '../config')
 })
   .addPlugin(dbPlugin)
-  .setConfig(app => {
+  .addConfig(app => {
     app.use(bodyParser.urlencoded({
       extended: true
     }));

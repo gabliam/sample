@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@gabliam/core@^1.0.2", "@gabliam/core@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-1.1.0.tgz#36b9e0b1828749ee2b866a3c5a5f4831d4acde65"
+"@gabliam/core@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-1.2.0.tgz#f26f75373c72b2f2370b121696f14655cacdd006"
   dependencies:
     "@types/glob" "^5.0.30"
     "@types/js-yaml" "^3.5.29"
-    "@types/lodash" "^4.14.52"
+    "@types/lodash" "^4.14.53"
     debug "^2.6.1"
     express "^4.14.1"
     glob "^7.1.1"
@@ -19,11 +19,11 @@
     js-yaml "^3.8.1"
     lodash "^4.17.4"
 
-"@gabliam/typeorm@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-1.0.3.tgz#36eb69a01c2ad4b60af77989cb13a426c585ce02"
+"@gabliam/typeorm@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-1.2.0.tgz#fa295bcb399bd04debf35cebd70192dfe7cea61a"
   dependencies:
-    "@gabliam/core" "^1.0.2"
+    debug "^2.6.1"
     typeorm "^0.0.8"
 
 "@sailshq/lodash@^3.10.2":
@@ -54,9 +54,9 @@
   version "3.5.29"
   resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-3.5.29.tgz#29f4dd9314fbccb080d8bd84b9c23811ec5090c2"
 
-"@types/lodash@^4.14.52":
-  version "4.14.52"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.52.tgz#de5c7ab14da1289733233c9b0ec6f9e377db90f5"
+"@types/lodash@^4.14.53":
+  version "4.14.53"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.53.tgz#c81ee7f2a551f92fb8692a2f6766d0430ccce9eb"
 
 "@types/mime@*":
   version "0.0.29"
@@ -1919,9 +1919,9 @@ typeorm@^0.0.8:
     yargonaut "^1.1.2"
     yargs "^6.6.0"
 
-typescript@^2.1.6:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.0.tgz#626f2fc70087d2480f21ebb12c1888288c8614e3"
+typescript@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.1.tgz#4862b662b988a4c8ff691cc7969622d24db76ae9"
 
 uid-number@~0.0.6:
   version "0.0.6"
