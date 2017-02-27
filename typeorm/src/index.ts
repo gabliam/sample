@@ -2,6 +2,7 @@ import 'reflect-metadata';
 import * as http from 'http';
 import * as path from 'path';
 import { Gabliam } from '@gabliam/core';
+import restPlugin from '@gabliam/rest';
 import dbPlugin from '@gabliam/typeorm';
 import * as bodyParser from 'body-parser';
 import * as helmet from 'helmet';
@@ -10,6 +11,7 @@ new Gabliam({
   discoverPath: __dirname,
   configPath: path.resolve(__dirname, '../config')
 })
+  .addPlugin(restPlugin)
   .addPlugin(dbPlugin)
   .addConfig(app => {
     app.use(bodyParser.urlencoded({

@@ -1,4 +1,4 @@
-import { RestController, Get, Post, Delete } from '@gabliam/core';
+import { RestController, Get, Post, Delete } from '@gabliam/rest';
 import { Photo } from '../entities/photo';
 import * as express from 'express';
 import { Connection, Repository } from '@gabliam/typeorm';
