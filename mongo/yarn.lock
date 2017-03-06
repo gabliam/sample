@@ -17,9 +17,9 @@
     js-yaml "^3.8.1"
     lodash "^4.17.4"
 
-"@gabliam/mongoose@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@gabliam/mongoose/-/mongoose-1.0.2.tgz#31f4fe27032e636d8acb8c40b660d27c0969132a"
+"@gabliam/mongoose@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/mongoose/-/mongoose-1.1.0.tgz#7835d25e47fb629ad3d78fefdf2deafd0e1a6255"
   dependencies:
     debug "^2.6.1"
 

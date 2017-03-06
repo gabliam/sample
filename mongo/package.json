@@ -19,7 +19,7 @@
   "homepage": "https://github.com/gabliam/sample#readme",
   "dependencies": {
     "@gabliam/core": "^1.4.0",
-    "@gabliam/mongoose": "^1.0.2",
+    "@gabliam/mongoose": "^1.1.0",
     "@gabliam/rest": "^1.4.0",
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
