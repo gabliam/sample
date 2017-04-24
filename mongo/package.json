@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/gabliam/sample#readme",
   "dependencies": {
-    "@gabliam/core": "^1.5.0",
-    "@gabliam/mongoose": "^1.1.0",
-    "@gabliam/rest": "^1.4.0",
+    "@gabliam/core": "~2.0.0",
+    "@gabliam/mongoose": "~2.0.0",
+    "@gabliam/express": "~2.0.0",
     "body-parser": "^1.16.1",
     "express": "^4.14.1",
     "helmet": "^3.4.0",

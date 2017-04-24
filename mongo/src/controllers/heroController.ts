@@ -1,14 +1,14 @@
-import { RestController, Get, Post, Delete } from '@gabliam/rest';
-import { inject } from '@gabliam/core';
+import { RestController, Get, Post, Delete } from '@gabliam/express';
+// import { inject } from '@gabliam/core';
 import { Hero } from '../entities/hero';
 import * as express from 'express';
 import { Repository, MongooseConnection } from '@gabliam/mongoose';
 
 @RestController('/heroes')
-export class PhotoController {
+export class HeroController {
     private heroRepository: Repository<Hero>;
 
-    constructor(@inject('MongooseConnection') connection: MongooseConnection) {
+    constructor(connection: MongooseConnection) {
         this.heroRepository = connection.getRepository<Hero>('Hero');
     }
 

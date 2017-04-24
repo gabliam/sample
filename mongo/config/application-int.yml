@@ -1,7 +1,0 @@
-application:
-    typeorm:
-        connectionOptions:
-            driver:
-                type: sqlite
-                storage: lol.sqlite
-            autoSchemaSync: true
