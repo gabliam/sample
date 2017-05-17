@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@gabliam/core@~2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-2.0.0.tgz#5a602dd728311307b2a0f7953addd6dcb6d2715b"
+"@gabliam/core@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-2.1.1.tgz#f7e749e860658c56891ad5dde96c156bab67ea01"
   dependencies:
     debug "^2.6.1"
     glob "^7.1.1"
@@ -14,13 +14,13 @@
     js-yaml "^3.8.1"
     lodash "^4.17.4"
 
-"@gabliam/express@~2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/express/-/express-2.0.0.tgz#78d7090bf55ad924eb4adf3855fc99b6b53de2b0"
+"@gabliam/express@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/express/-/express-2.1.0.tgz#6ec8224416a1b8371216a5db44a6827cae7e4867"
 
-"@gabliam/typeorm@~2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-2.0.0.tgz#0921f97b0fc7159f70b3415b80312ab6d52bbddb"
+"@gabliam/typeorm@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/typeorm/-/typeorm-2.1.0.tgz#87c0523af471bd207054cd54239c0af33dd8dbff"
   dependencies:
     debug "^2.6.1"
     typeorm "^0.0.8"
@@ -1933,9 +1933,9 @@ typeorm@^0.0.8:
     yargonaut "^1.1.2"
     yargs "^6.6.0"
 
-typescript@^2.2.1:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.0.tgz#2e63e09284392bc8158a2444c33e2093795c0418"
+typescript@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.2.tgz#f0f045e196f69a72f06b25fd3bd39d01c3ce9984"
 
 uid-number@^0.0.6:
   version "0.0.6"
