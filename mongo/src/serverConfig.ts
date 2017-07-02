@@ -9,7 +9,6 @@ import { createError } from './utils';
 export class ServerConfig {
     @ExpressConfig()
     addExpressConfig(app: express.Application) {
-        console.log('addExpressConfig lol');
         app.use(bodyParser.urlencoded({
             extended: true
         }));
@@ -19,7 +18,6 @@ export class ServerConfig {
 
     @ExpressErrorConfig()
     addExpressErrorConfig(app: express.Application) {
-        console.log('ExpressErrorConfig azeazeaze');
         app.use(function (err, req, res, next) {
           let error = createError(err);
           res.status(error.statusCode).json(error);

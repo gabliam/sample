@@ -2,31 +2,26 @@
 # yarn lockfile v1
 
 
-"@gabliam/core@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-2.1.1.tgz#f7e749e860658c56891ad5dde96c156bab67ea01"
+"@gabliam/core@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/core/-/core-2.4.0.tgz#4feb231cb59534b935b42c366f4c1088073b1bb0"
   dependencies:
     debug "^2.6.1"
     glob "^7.1.1"
-    include-all "^3.0.1"
     inversify "^3.1.0"
     inversify-logger-middleware "^3.0.0"
     js-yaml "^3.8.1"
     lodash "^4.17.4"
 
-"@gabliam/express@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/express/-/express-2.1.0.tgz#6ec8224416a1b8371216a5db44a6827cae7e4867"
+"@gabliam/express@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/express/-/express-2.4.0.tgz#01806998c80145bea64a10a47da4590adef6446d"
 
-"@gabliam/mongoose@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@gabliam/mongoose/-/mongoose-2.1.0.tgz#056e3b5d6f8bcc12a4cf3148e08c17c326ecc8ac"
+"@gabliam/mongoose@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@gabliam/mongoose/-/mongoose-2.2.0.tgz#61565271fb7a112c1911a6d860fdcf1a1e4d4497"
   dependencies:
     debug "^2.6.1"
-
-"@sailshq/lodash@^3.10.2":
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/@sailshq/lodash/-/lodash-3.10.2.tgz#1567d47345364c2c2e2077bc113487b1dfe62154"
 
 "@types/express-serve-static-core@*":
   version "4.0.44"
@@ -363,13 +358,13 @@ debug@2.2.0:
   dependencies:
     ms "0.7.1"
 
-debug@2.6.1:
+debug@2.6.1, debug@^2.2.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.1.tgz#79855090ba2c4e3115cc7d8769491d58f0491351"
   dependencies:
     ms "0.7.2"
 
-debug@2.6.4, debug@^2.2.0, debug@^2.6.1:
+debug@2.6.4, debug@^2.6.1:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.4.tgz#7586a9b3c39741c0282ae33445c4e8ac74734fe0"
   dependencies:
@@ -817,13 +812,6 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
 
-include-all@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/include-all/-/include-all-3.0.1.tgz#11841631da84610c19f478ef0750a57365bda565"
-  dependencies:
-    "@sailshq/lodash" "^3.10.2"
-    merge-dictionaries "^0.0.3"
-
 infinity-agent@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/infinity-agent/-/infinity-agent-2.0.3.tgz#45e0e2ff7a9eb030b27d62b74b3744b7a7ac4216"
@@ -1117,12 +1105,6 @@ media-typer@0.3.0:
 merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
-
-merge-dictionaries@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/merge-dictionaries/-/merge-dictionaries-0.0.3.tgz#c4de4d58dbb25e4c2823aa30cb8e1539069eb757"
-  dependencies:
-    "@sailshq/lodash" "^3.10.2"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -1420,7 +1402,7 @@ pinkie-promise@^2.0.0:
   dependencies:
     pinkie "^2.0.0"
 
-pinkie@^2.0.0, pinkie@^2.0.4:
+pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
@@ -1817,9 +1799,9 @@ tough-cookie@~2.3.0:
   dependencies:
     punycode "^1.4.1"
 
-ts-node@^2.1.0:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-2.1.2.tgz#45087b45e7b371b3daf04ecc470ec29a836655ea"
+ts-node@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-3.1.0.tgz#a75ec5aeb48f3058b1b945dba765f1150ba88f8c"
   dependencies:
     arrify "^1.0.0"
     chalk "^1.1.1"
@@ -1827,12 +1809,10 @@ ts-node@^2.1.0:
     make-error "^1.1.1"
     minimist "^1.2.0"
     mkdirp "^0.5.1"
-    pinkie "^2.0.4"
     source-map-support "^0.4.0"
     tsconfig "^6.0.0"
     v8flags "^2.0.11"
-    xtend "^4.0.0"
-    yn "^1.2.0"
+    yn "^2.0.0"
 
 tsconfig@^6.0.0:
   version "6.0.0"
@@ -1858,9 +1838,9 @@ type-is@~1.6.14:
     media-typer "0.3.0"
     mime-types "~2.1.15"
 
-typescript@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.3.2.tgz#f0f045e196f69a72f06b25fd3bd39d01c3ce9984"
+typescript@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.1.tgz#c3ccb16ddaa0b2314de031e7e6fee89e5ba346bc"
 
 uid-number@^0.0.6:
   version "0.0.6"
@@ -1950,10 +1930,6 @@ xdg-basedir@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-xtend@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
-
-yn@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/yn/-/yn-1.2.0.tgz#d237a4c533f279b2b89d3acac2db4b8c795e4a63"
+yn@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
